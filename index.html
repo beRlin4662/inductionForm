@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techno-byte Induction Form</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div id="container">
+        <header class="header">
+            <h1 id="title">Techno-byte Induction 2021
+                <small>(unofficial)</small>
+            </h1>
+
+            <p id="description">Techno-byte is official Technical club of NIT-KURUKSHETRA <br>
+                Fill this form if you consider yourself to be eligible.
+            </p>
+        </header>
+
+        <form id="survey-form">
+            <div class="form-element">
+                <label for="" id="name-label">NAME:</label>
+                <input type="text" id="name" placeholder="Enter your name here" required class="input
+                ">
+            </div>
+
+            <div class="form-element">
+                <label for="" id="email-label">Email id:</label>
+                <input type="email" id="email" required placeholder="Enter your Valid E-mail here" class="input
+                ">
+            </div>
+
+            <div class="form-element">
+                <label for="" id="number-label">CONTACT NO.</label>
+                <input type="number" id="number" min="0" max="9999" placeholder="Enter your Valid Mobile NO." class="input
+                ">
+            </div>
+
+            <div class="form-element">
+                <p>Please Select Your Branch</p>
+                <select name="" id="dropdown" class="input
+                ">
+                    <option disabled selected>Choose any one</option>
+                    <option value="IT">IT</option>
+                    <option value="COE">COE</option>
+                    <option value="ECE">ECE</option>
+                    <option value="EE">EE</option>
+                    <option value="MECH">MECHANICAL</option>
+                </select>
+            </div>
+
+            <div class="form-element">
+                <p>Current year you are 'in</p>
+                <label >
+                    1st-year: <input type="radio" name="year" id="" value="1">
+                </label>
+                <label >
+                    2nd-year: <input type="radio" name="year" id="" value="2">
+                </label>
+                <label >
+                    3rd-year: <input type="radio" name="year" id="" value="3">
+                </label>
+                <label >
+                    4th-year: <input type="radio" name="year" id="" value="4">
+                </label>
+            </div>
+     
+            <div class="form-element">
+                <p>Check all the Skills you know</p>
+                <span class="clue">(Leave if none)</span>
+                <label >
+                   C Language <input type="checkbox" value="C">
+                </label>
+                <label >
+                   C++  <input type="checkbox" value="C++">
+                </label>
+                <label >
+                   JAVA  <input type="checkbox" value="JAVA">
+                </label>
+                <label >
+                  Adobe Photo-shop <input type="checkbox" value="Photo-shop">
+                </label>
+                <label >
+                  HTML&CSS  <input type="checkbox" value="HTML/Css">
+                </label>
+            </div>
+
+            <div class="form-element">
+                <p>Brief us about yourself in 50-100 Words that why should we select you</p>
+                <textarea name="ta" id="ta" cols="30" rows="10" placeholder="Enter your response here...."></textarea>
+            </div>
+
+            <div class="form-element">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
+
+</html>
